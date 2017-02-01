@@ -601,5 +601,9 @@ int		main()
 	/* Et paf ! Segfault...
 	 *    Pour savoir quels tests ne fonctionnent pas, mettez un exit par ci par la ;-) */
 
+	ft_printf("%99999999.1d", 5);
+	ft_printf("%1.99999999d", 5);
+	ft_printf("%99999999.99999999d", 5);
+
 	return (0);
 }
