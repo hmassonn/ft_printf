@@ -1,9 +1,29 @@
 # ft\_printf @ 42
-Because I wanna stop of using putnbr and putstr
+it's just a main set to test your printf but my ft_printf is in my library in all my others projects.
 
-This project aims at rebuilding the printf library with basic functionality. I
-tried to implement as much of the original as possible, and also have a few
-extra things which I found to be rather useful.
+#### Objectifs
+
+• Vous devez recoder la fonction printf de la librairie C.<br/>
+• Votre fonction s’appelera ft_printf et sera prototypée de la même façon que
+printf.<br/>
+• Vous ne ferez pas la gestion de buffer présente dans la fonction printf de la librairie
+C.<br/>
+• Vous devez gérer les conversions suivantes : sSpdDioOuUxXcC<br/>
+• Vous devez gérer le %%<br/>
+• Vous devez gérer les flags #0-+ et espace<br/>
+• Vous devez gérer la taille minimum du champ<br/>
+• Vous devez gérer la précision<br/>
+• Vous devez gérer les flags hh h l ll j z<br/>
+
+#### Fonctions autorisées
+
+◦ write
+◦ malloc
+◦ free
+◦ exit
+◦ les fonctions du man 3 stdarg
+
+
 
 Extra conversions:
 
