@@ -23,14 +23,6 @@ C.<br/>
 ◦ exit
 ◦ les fonctions du man 3 stdarg
 
-
-
-Extra conversions:
-
-| Name		| Conversion	| Example output	|
-| --------- | ------------- | ----------------- |
-| Binary	| b				| 00001001			|
-
 ## Compiling
 Run `make` to compile the
 library. Use it like you would use the `printf` function:
